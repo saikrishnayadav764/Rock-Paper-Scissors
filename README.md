@@ -77,18 +77,6 @@ The app is having the following functionalities
 - When the result is `YOU LOSE`, then the score will be decremented by one
 - When the **PLAY AGAIN** button is clicked, then the [Playing View](https://assets.ccbp.in/frontend/content/react-js/rock-paper-scissors-lg-playing-output.png) will be displayed
 
-</details>
-
-
-**The following instructions are required for the tests to pass**
-
-- **Styled Components** are  used for styling purposes
-- The Page consisted of three HTML button elements with `data-testid` attribute values as **rockButton**, **scissorsButton** and **paperButton** respectively
-- In Game Results View, the page consisted of an HTML image element with alt as **your choice** and src as URL 
-- In Game Results View, the page consisted of an HTML image element with alt as **opponent choice** and src as URL for opponent choice image
-- **Roboto** is applied as `font-family` for **Score** value
-
-</details>
 
 ### Resources
 
