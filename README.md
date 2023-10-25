@@ -112,10 +112,10 @@ The app must have the following functionalities
 **The following instructions are required for the tests to pass**
 
 - **Styled Components** should be used for styling purposes
-- The Page should consist of three HTML button elements with `data-testid` attribute values as **rockButton**, **scissorsButton** and **paperButton** respectively
-- In Game Results View, the page should consist of an HTML image element with alt as **your choice** and src as URL for your choice image
-- In Game Results View, the page should consist of an HTML image element with alt as **opponent choice** and src as URL for opponent choice image
-- **Roboto** should be applied as `font-family` for **Score** value
+- The Page consisted of three HTML button elements with `data-testid` attribute values as **rockButton**, **scissorsButton** and **paperButton** respectively
+- In Game Results View, the page consisted of an HTML image element with alt as **your choice** and src as URL 
+- In Game Results View, the page consisted of an HTML image element with alt as **opponent choice** and src as URL for opponent choice image
+- **Roboto** is applied as `font-family` for **Score** value
 
 </details>
 
@@ -146,9 +146,4 @@ The app must have the following functionalities
 
 </details>
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+
