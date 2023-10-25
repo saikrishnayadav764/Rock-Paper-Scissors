@@ -29,16 +29,16 @@
 - Start up the app using `npm start`
 </details>
 
-### Completion Instructions
+
 
 <details>
-<summary>Functionality to be added</summary>
+<summary>Functionality added</summary>
 <br/>
 
 The app must have the following functionalities
 
-- When you click on the **Rules** button, it should trigger a popup, and rules image should be displayed
-- Initially, the score displayed should be `0`
+- When we click on the **Rules** button, it  triggers a popup, and rules image will be displayed
+- Initially, the score displayed will be `0`
 - The App is provided with `choicesList`. It consists of a list of choice objects with the following properties in each choice object
 
   |   Key    | Data Type |
@@ -46,11 +46,11 @@ The app must have the following functionalities
   |    id    |  String   |
   | imageUrl |  String   |
 
-- When any of the three buttons (i.e Rock, Paper, Scissors) is clicked, then the [Game Results View](https://assets.ccbp.in/frontend/content/react-js/rock-paper-scissors-lg-game-results-output.png) should be displayed
-- In the Game Results View, the opponent choice should be generated randomly among these three buttons (i.e Rock, Paper, Scissors)
-- When the **Rock** button is clicked, then the rock image should be displayed as your choice in the Game Results View
-- When the **Paper** button is clicked, then the paper image should be displayed as your choice in the Game Results View
-- When the **Scissors** button is clicked, then the scissors image should be displayed as your choice in the Game Results View
+- When any of the three buttons (i.e Rock, Paper, Scissors) is clicked, then the [Game Results View](https://assets.ccbp.in/frontend/content/react-js/rock-paper-scissors-lg-game-results-output.png) will be displayed
+- In the Game Results View, the opponent choice will be generated randomly among these three buttons (i.e Rock, Paper, Scissors)
+- When the **Rock** button is clicked, then the rock image will be displayed as our choice in the Game Results View
+- When the **Paper** button is clicked, then the paper image will be displayed as our choice in the Game Results View
+- When the **Scissors** button is clicked, then the scissors image will be displayed as our choice in the Game Results View
 
   #### Game Rules
 
@@ -62,56 +62,27 @@ The app must have the following functionalities
 
   - Game result based on choices
 
-    - When your choice is **paper** and the opponent choice is **rock**, then the result will be `YOU WON`
-    - When your choice is **scissors** and the opponent choice is **rock**, then the result will be `YOU LOSE`
-    - When your choice is **rock** and the opponent choice is **paper**, then the result will be `YOU LOSE`
-    - When your choice is **scissors** and the opponent choice is **paper**, then the result will be `YOU WON`
-    - When your choice is **rock** and the opponent choice is **scissors**, then the result will be `YOU WON`
-    - When your choice is **paper** and the opponent choice is **scissors**, then the result will be `YOU LOSE`
-    - When your choice and the opponent choice match, then the result will be `IT IS DRAW`
+    - When our choice is **paper** and the opponent choice is **rock**, then the result will be `YOU WON`
+    - When our choice is **scissors** and the opponent choice is **rock**, then the result will be `YOU LOSE`
+    - When our choice is **rock** and the opponent choice is **paper**, then the result will be `YOU LOSE`
+    - When our choice is **scissors** and the opponent choice is **paper**, then the result will be `YOU WON`
+    - When our choice is **rock** and the opponent choice is **scissors**, then the result will be `YOU WON`
+    - When our choice is **paper** and the opponent choice is **scissors**, then the result will be `YOU LOSE`
+    - When our choice and the opponent choice match, then the result will be `IT IS DRAW`
 
     </details>
 
-- When the result is `YOU WON`, then the score should be incremented by one
-- When the result is `IT IS DRAW`, then there shouldn't be any change in the score
-- When the result is `YOU LOSE`, then the score should be decremented by one
-- When the **PLAY AGAIN** button is clicked, then the [Playing View](https://assets.ccbp.in/frontend/content/react-js/rock-paper-scissors-lg-playing-output.png) should be displayed
+- When the result is `YOU WON`, then the score wil be incremented by one
+- When the result is `IT IS DRAW`, then there won't be any change in the score
+- When the result is `YOU LOSE`, then the score will be decremented by one
+- When the **PLAY AGAIN** button is clicked, then the [Playing View](https://assets.ccbp.in/frontend/content/react-js/rock-paper-scissors-lg-playing-output.png) will be displayed
 
 </details>
 
-### Quick Tips
-
-<details>
-<summary>Click to view</summary>
-<br>
-
-- You can use `Math.random()` function to get a random number (float value) in range 0 to less than 1 (`0 <= randomNumber < 1`)
-
-  ```
-  Math.random()
-  ```
-
-- You can use `Math.floor()` function that returns the **largest integer less than or equal to a given number**
-
-  ```js
-  console.log(Math.floor(5.95)); // output: 5
-  ```
-
-</details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-- You can use **reactjs-popup** for displaying the modal
-- `RiCloseLine` icon from `react icons` can be used for the **close** button at `React Popup`
 
 **The following instructions are required for the tests to pass**
 
-- **Styled Components** should be used for styling purposes
+- **Styled Components** are  used for styling purposes
 - The Page consisted of three HTML button elements with `data-testid` attribute values as **rockButton**, **scissorsButton** and **paperButton** respectively
 - In Game Results View, the page consisted of an HTML image element with alt as **your choice** and src as URL 
 - In Game Results View, the page consisted of an HTML image element with alt as **opponent choice** and src as URL for opponent choice image
