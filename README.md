@@ -35,7 +35,7 @@
 <summary>Functionality added</summary>
 <br/>
 
-The app must have the following functionalities
+The app is having the following functionalities
 
 - When we click on the **Rules** button, it  triggers a popup, and rules image will be displayed
 - Initially, the score displayed will be `0`
